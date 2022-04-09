@@ -21,12 +21,8 @@ class Solution {
         int sum=0;
         for(int i=0;i<arr.length;i++){
             sum+=arr[i]/mid;
-            if(arr[i]%mid==0){
-                sum--;
-            }
+            if(arr[i]%mid==0) sum--;
         }
         return sum<=m;
-        
-        
     }
 }

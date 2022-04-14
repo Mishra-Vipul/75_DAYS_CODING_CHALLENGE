@@ -35,8 +35,6 @@ class Solution {
             while(subTail.next!=null){
                 subTail=subTail.next;
             }
-            // display(sub);
-            // System.out.println(subTail.val);
             
             if(ans == null){
                 ans = sub;
@@ -78,12 +76,6 @@ class Solution {
         }
         return temp;
     }
-    // public void display(ListNode head){
-    //     while(head!=null){
-    //         System.out.print(head.val+" ");
-    //         head = head.next;
-    //     }
-    //     System.out.println();
-    // }
+    
     
 }

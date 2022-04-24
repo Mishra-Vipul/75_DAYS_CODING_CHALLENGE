@@ -4,13 +4,6 @@ class Solution {
         int[] nsl = nslIndex(heights);
         int[] nsr = nsrIndex(heights);
         
-        // for(int i=0;i<nsr.length;i++){
-        //     System.out.println(nsl[i]);
-        // }
-        // System.out.println("*************");
-        // for(int i=0;i<nsr.length;i++){
-        //     System.out.println(nsr[i]);
-        // }
         
         for(int i=0;i<heights.length;i++){
             int ht = heights[i];
